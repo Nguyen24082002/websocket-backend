@@ -34,7 +34,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://websocket-chatapp-1c459.firebaseapp.com/",
     credentials: true,
   },
 });
